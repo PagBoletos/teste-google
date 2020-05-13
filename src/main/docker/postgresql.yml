@@ -1,0 +1,11 @@
+version: '2'
+services:
+  testegoogle-postgresql:
+    image: postgres:12.1
+    # volumes:
+    #     - ~/volumes/jhipster/TesteGoogle/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=TesteGoogle
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432
