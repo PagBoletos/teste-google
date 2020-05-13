@@ -1,0 +1,12 @@
+commonLabels:
+  app.kubernetes.io/genereted-by: JHipster
+
+resources:
+  # Individual apps
+  - testegoogle/testegoogle-deployment.yml
+  - testegoogle/testegoogle-service.yml
+  - testegoogle/testegoogle-postgresql.yml
+  - testegoogle/jwt-secret.yml
+# service discovery eureka/consul
+
+patchesJson6902:

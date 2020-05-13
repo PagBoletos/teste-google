@@ -35,7 +35,17 @@
     "entitySuffix": "",
     "dtoSuffix": "DTO",
     "otherModules": [],
-    "blueprints": []
+    "blueprints": [],
+    "appsFolders": ["teste-google"],
+    "directoryPath": "../",
+    "dockerRepositoryName": "gcr.io/mobyware-teste",
+    "dockerPushCommand": "gcloud docker push",
+    "kubernetesNamespace": "default",
+    "kubernetesServiceType": "LoadBalancer",
+    "kubernetesUseDynamicStorage": false,
+    "ingressDomain": "",
+    "monitoring": "no",
+    "istio": false
   },
   "git-provider": "GitHub",
   "git-company": "PagBoletos",
